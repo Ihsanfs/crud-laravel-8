@@ -43,7 +43,7 @@
             <form action="{{route('delete.produk',$item->id)}}" method="post">
                 @csrf
                 @method('delete')
-                <a href="{{route('delete.produk', $item->id)}}" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> del</a>
+                <button class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> delete</button>
                 </form>
         </td>
       </tr>
