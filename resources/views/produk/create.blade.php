@@ -5,8 +5,6 @@
         <form action="{{route('simpan.produk')}}"  method="POST" enctype="multipart/form-data">
             @method('post')
             @csrf
-
-
         <div class="mb-3 mt-4">
             <label for="nama" class="form-label">Nama Produk</label>
             <input type="text" class="form-control" id="nama" name="nama_produk" placeholder="nama produk">
