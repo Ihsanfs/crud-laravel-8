@@ -7,6 +7,11 @@
 
 </div>
 <a href="{{route('tambah.produk')}}" class="btn btn-secondary btn-round"><i class="fa fa-plus"></i> Tambah</a>
+@if (session('success'))
+    <div class="alert alert-success mt-2">
+        {{ session('success') }}
+    </div>
+@endif
 <table class="table display table table-striped table-hover" >
     <thead>
       <tr>
