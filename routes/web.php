@@ -14,12 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 Route::resource('produk', ProdukController::class);
-Route::get('produk',[ProdukController::class, 'index'])->name('produk.tampil');
+Route::get('/',[ProdukController::class, 'index'])->name('produk.tampil');
 Route::get('produk/create',[ProdukController::class, 'create'])->name('tambah.produk');
 Route::post('produkstore',[ProdukController::class, 'store'])->name('simpan.produk');
 Route::get('produk/{$id}/edit',[ProdukController::class, 'edit'])->name('edit.produk');
