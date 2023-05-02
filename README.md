@@ -1,5 +1,5 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/Ihsanfs/crud-pijarcamp/issues/4#issue-1692337607" width="400"></a></p>
-<img src = "https://github.com/Ihsanfs/crud-pijarcamp/issues/4#issue-1692337607">
+![create](https://user-images.githubusercontent.com/71807732/235666706-c0b7ecad-bae7-4b11-83f7-71a12ed26f8a.png)
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
