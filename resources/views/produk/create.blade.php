@@ -2,6 +2,15 @@
 @section('content')
     <div class="div mt-8 col-md-6">
         <h2 class="mt-4">Form Tambah produk</h2>
+           @if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
         <form action="{{route('simpan.produk')}}"  method="POST" enctype="multipart/form-data">
             @method('post')
             @csrf
